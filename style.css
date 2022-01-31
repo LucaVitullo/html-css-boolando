@@ -4,15 +4,12 @@
   padding: 0;
 }
 
-body {
-  background-color: bisque;
-}
-
 .big-cont {
   background-color: white;
   width: 70%;
   height: 70%;
   margin: 20px auto;
+  padding: 20px;
 }
 
 .block-top {
@@ -32,22 +29,42 @@ body {
   position: relative;
 }
 
-.block-top .info{
-    position: absolute;
-    font-size: x-small;
-    bottom: -30px;
-    width: 150px;
-    height: 40px;
+.discount {
+  background-color: red;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  top: 85%;
+  padding: 2px;
+  margin-left: 2%;
 }
 
-.info .prezzo-scontato{
-    color: red;
+.sostenibilità {
+  background-color: green;
+  font-size: 10px;
+  font-weight: bold;
+  color: white;
+  position: relative;
+  top: 85%;
+  padding: 2px;
 }
 
-.info .prezzo-intero{
-    text-decoration: line-through;
+.block-top .info {
+  position: absolute;
+  font-size: 10px;
+  bottom: -30px;
+  width: 150px;
+  height: 40px;
 }
 
+.info .prezzo-scontato {
+  color: red;
+}
+
+.info .prezzo-intero {
+  text-decoration: line-through;
+}
 
 .block-top-2 {
   background-image: url(./img/2.webp);
@@ -69,39 +86,88 @@ body {
   height: 300px;
   float: left;
   position: relative;
-
 }
 
 .block-bottom {
   content: "";
   display: table;
   clear: both;
-  margin: auto;
-  padding-top: 30px;
+  margin: inherit;
+  margin-top: 30px;
 }
 
 .block-bottom-1 {
   background-image: url(./img/4.webp);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 200px;
   height: 300px;
   float: left;
+  position: relative;
 }
 
 .block-bottom-2 {
   background-image: url(./img/5.webp);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 200px;
   height: 300px;
   float: left;
+  position: relative;
   margin-left: 20px;
   margin-right: 20px;
 }
 
 .block-bottom-3 {
   background-image: url(./img/6.webp);
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   width: 200px;
   height: 300px;
   float: left;
+  position: relative;
+}
+
+.block-bottom .info {
+  position: absolute;
+  font-size: 10px;
+  bottom: -30px;
+  width: 150px;
+  height: 40px;
+}
+
+.block-top-1:hover {
+  background-image: url(./img/1b.webp);
+}
+
+.block-top-2:hover {
+  background-image: url(.//img/2b.webp);
+}
+
+.block-top-3:hover {
+  background-image: url(./img/3b.webp);
+}
+
+.block-bottom-1:hover {
+  background-image: url(./img/4b.webp);
+}
+
+.block-bottom-2:hover {
+  background-image: url(./img/5b.webp);
+}
+
+.block-bottom-3:hover {
+  background-image: url(./img/6b.webp);
+}
+
+.heart {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: white;
+  padding: 5px;
+}
+
+.heart:hover {
+  color: red;
 }
