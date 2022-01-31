@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+.big-cont {
+  background-color: white;
+  width: 70%;
+  height: 70%;
+  margin: 20px auto;
+}
+
+.block-top {
+  content: "";
+  display: table;
+  clear: both;
+  margin: inherit;
+}
+
+.block-top-1 {
+  background-image: url(./img/1.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+  float: left;
+  position: relative;
+}
+
+.block-top .info{
+    position: absolute;
+    font-size: x-small;
+    bottom: -30px;
+    width: 150px;
+    height: 40px;
+}
+
+.info .prezzo-scontato{
+    color: red;
+}
+
+.info .prezzo-intero{
+    text-decoration: line-through;
+}
+
+
+.block-top-2 {
+  background-image: url(./img/2.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+  float: left;
+  position: relative;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.block-top-3 {
+  background-image: url(./img/3.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 300px;
+  float: left;
+  position: relative;
+
+}
+
+.block-bottom {
+  content: "";
+  display: table;
+  clear: both;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.block-bottom-1 {
+  background-image: url(./img/4.webp);
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+  float: left;
+}
+
+.block-bottom-2 {
+  background-image: url(./img/5.webp);
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.block-bottom-3 {
+  background-image: url(./img/6.webp);
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+  float: left;
+}
